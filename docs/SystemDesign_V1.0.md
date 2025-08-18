@@ -17,6 +17,8 @@
 6. Testability: The application logic (the calculator's engine) should be separated from the UI and thoroughly tested.
 
 ## API Layer
+Instead of using Network protocol for this Project. i decided to compile it as library.
+So, i can use it for SwiftUI apps in production without need to deploy it to the Cloud,
 
 ## Deep Dive
 

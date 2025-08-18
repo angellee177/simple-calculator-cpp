@@ -3,4 +3,6 @@ project(simple_calculator)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(simple_calculator main.cpp)
+add_executable(simple_calculator main.cpp
+        routes/CalculatorRoutes.cpp
+)
