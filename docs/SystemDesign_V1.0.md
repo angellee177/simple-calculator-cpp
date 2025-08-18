@@ -17,7 +17,11 @@
 6. Testability: The application logic (the calculator's engine) should be separated from the UI and thoroughly tested.
 
 ## API Layer
+The definition of an API is a contract for communication between two different applications. While the most common API protocols use networks (like SOAP, gRPC, REST, and GraphQL) for communication between a client and a remote server, this project will use a library protocol.
 
+The C++ backend's core logic will be compiled into a native library that is directly embedded within the SwiftUI app bundle. This makes the "API" a set of public functions in the C++ header file, which the SwiftUI code can call directly. This approach eliminates the need for a separate cloud-based server, avoiding network latency and recurring hosting costs.
+
+... BRB
 ## Deep Dive
 
 ## High Level Design
