@@ -9,12 +9,12 @@
 7. The system should display a clear display of the current expression and the final result.
 
 ## Non-functional Requirements
-1. Reliability:
-2. Scalability:
-3. Performance:
-4. Usability:
-5. Security:
-6. Precision:
+1. Reliability: THe system should be highly available, producing correct results for all valid input without crashing. It should handle edge cases like division by zero gracefully.
+2. Performance: The calculator should provide near-instantaneous results, even for complex calculations with large number
+3. Usability: The user interface (UI) should be intuitive and easy to use.
+4. Precision: All calculations must use a high-precision numerical system to avoid the inherent limitations of standard floating-point arithmetic.
+5. Maintainability: The code should be well-structured, easy to understand, and simple to modify for future feature additions (e.g., adding scientific functions).
+6. Testability: The application logic (the calculator's engine) should be separated from the UI and thoroughly tested.
 
 ## API Layer
 
