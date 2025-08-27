@@ -21,7 +21,7 @@ The definition of an API is a contract for communication between two different a
 
 The C++ backend's core logic will be compiled into a native library that is directly embedded within the SwiftUI app bundle. This makes the "API" a set of public functions in the C++ header file, which the SwiftUI code can call directly. This approach eliminates the need for a separate cloud-based server, avoiding network latency and recurring hosting costs.
 
-For more explanation about APIs, read [here](https://angellee177.hashnode.dev/what-is-api-exactly-things-i-wish-i-had-known-earlier#heading-a-text-based-formats)
+For more explanation about APIs, read [here](https://angellee177.hashnode.dev/what-is-api-exactly-things-i-wish-i-had-known-earlier)
 ### Public functions in the C++ API:
 - `std:string evaluateExpression(const std::string& expression)`: Basically the `evaluateExpression(const std::string& expression)` function take the full mathematical expression as a string type, then return the calculation result as a string.
 - `void clear()`: This `clear()` function is to resets the entire calculator state, including the current expression and result history.
